@@ -3,9 +3,7 @@
 library(raster)
 library(ggplot2)
 
-setwd("~/lab/") # Linux
-# setwd("C:/lab/") # Windows
-# setwd("/Users/name/Desktop/lab/") # Mac
+setwd("C:/lab/") # Windows
 
 sen <- brick("sentinel.png")
 
